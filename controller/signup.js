@@ -135,7 +135,7 @@ class Signup {
                     if (result) {
                         return res.status(200).send({
                             message: 'Success',
-                            data: result,
+                            data: [],
                         });
                     }
                 })
